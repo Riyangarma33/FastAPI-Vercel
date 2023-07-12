@@ -81,7 +81,7 @@ The CI/CD deployment steps are as follows.
 
    | Name              | Description                                                                                                                                 |
    | :---------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
-   | VERCEL_TOKEN      | Vercel account token. You can get it by[following](https://vercel.com/guides/how-do-i-use-a-vercel-api-access-token#creating-an-access-token). |
+   | VERCEL_TOKEN      | Vercel account token. You can get it by [following](https://vercel.com/guides/how-do-i-use-a-vercel-api-access-token#creating-an-access-token). |
    | VERCEL_ORG_ID     | Vercel Organization ID. You can get it from `.vercel/project.json`.                                                                       |
    | VERCEL_PROJECT_ID | Vercel Project ID. You can get it from `.vercel/project.json`.                                                                           |
 8. Commit repo.

@@ -79,11 +79,11 @@ The CI/CD deployment steps are as follows.
    ```
 7. Add GitHub repository secrets for GitHub Actions
 
-   | Name              | Description                                                                                                                                   |
-   | :---------------- | :-------------------------------------------------------------------------------------------------------------------------------------------- |
-   | VERCEL_TOKEN      | Vercel account token. You can get it by [following](https://vercel.com/guides/how-do-i-use-a-vercel-api-access-token#creating-an-access-token). |
-   | VERCEL_ORG_ID     | Vercel Organization ID. You can get it from `.vercel/project.json`.                                                                         |
-   | VERCEL_PROJECT_ID | Vercel Project ID. You can get it from `.vercel/project.json`.                                                                             |
+   | Name              | Description                                                                                                                                 |
+   | :---------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
+   | VERCEL_TOKEN      | Vercel account token. You can get it by[following](https://vercel.com/guides/how-do-i-use-a-vercel-api-access-token#creating-an-access-token). |
+   | VERCEL_ORG_ID     | Vercel Organization ID. You can get it from `.vercel/project.json`.                                                                       |
+   | VERCEL_PROJECT_ID | Vercel Project ID. You can get it from `.vercel/project.json`.                                                                           |
 8. Commit repo.
 9. Add main branch.
 
@@ -95,3 +95,4 @@ The CI/CD deployment steps are as follows.
     ```bash
     git push -u origin main
     ```
+11. GitHub Actions will run immediately.
